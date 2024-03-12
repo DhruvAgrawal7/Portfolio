@@ -10,6 +10,7 @@ a:active {
 
 
 
+
 .bg-body-tertiary{
     background-color: transparent !important;
 }
@@ -357,7 +358,7 @@ section {
     padding-top: 30px;
 }
 
-#edu-timeline-box {
+.edu-timeline-box {
     margin: 5px;
     width: 40%;
     min-height: 150px;
@@ -367,15 +368,15 @@ section {
     color: grey;
 }
 
-#edu-timeline-box:nth-child(2n) {
+.edu-timeline-box:nth-child(2n) {
     left: 53%;
 }
 
-#edu-timeline-box h5 {
+.edu-timeline-box h5 {
     color: #0030c0;
 }
 
-#edu-timeline-box h5::before {
+.edu-timeline-box h5::before {
     content: '';
     background-image: url(images/rtu.jpg);
     display: inline-block;
@@ -386,7 +387,7 @@ section {
 
 }
 
-#edu-timeline-box:nth-child(2n-1)::after {
+.edu-timeline-box:nth-child(2n-1)::after {
     content: '';
     border-radius: 50%;
     width: 0.7rem;
@@ -399,7 +400,7 @@ section {
     opacity: 0.6;
 }
 
-#edu-timeline-box:nth-child(2n)::after {
+.edu-timeline-box:nth-child(2n)::after {
     content: '';
     border-radius: 50%;
     width: 0.7rem;
@@ -615,11 +616,11 @@ section {
     }
 
     /*education*/
-    #edu-timeline-box:nth-child(2n) {
+    .edu-timeline-box:nth-child(2n) {
         left: 5%;
     }
 
-    #edu-timeline-box {
+    .edu-timeline-box {
         width: 80%;
     }
 
@@ -627,7 +628,7 @@ section {
         left: 5%;
     }
 
-    #edu-timeline-box::after {
+    .edu-timeline-box::after {
         left: -3% !important;
     }
 
